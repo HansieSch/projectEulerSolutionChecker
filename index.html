@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-za">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Project Euler Solution Checker</title>
+
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+
+    <body>
+
+        <h1>Project Euler Solution Checker</h1>
+        <form onsubmit="checkSolution(); return false;">
+            <div class="input-field">
+                <label>Problem Number: </label>
+                <input type="number" step="1" min="1" max="600" required>
+            </div>
+            
+            <div class="input-field">
+                <label>Solution: </label>
+                <input type="text" required>
+            </div>
+            <div class="input-field">
+                <p>When multiple values are required seperate them using a comma e.g: 1,2,3<br>
+                    No spaces are allowed.
+                </p>
+            </div>
+            
+            <button type="submit">Check</button>
+
+            <div class="status">
+                <div class="success">Success</div>
+                <div class="failed">Error</div>
+                <div class="busy">Checking...</div>
+            </div>
+        </form>
+
+        <script src="js/atomic.js"></script>
+        <script src="js/bcrypt.js"></script>
+        <script src="js/script.js">
+
+            
+        </script>
+    </body>
+</html>
